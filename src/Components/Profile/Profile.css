@@ -1,0 +1,58 @@
+.newShortUrl-container {
+  padding: 2rem;
+}
+
+.newShortUrl-title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.newShortUrl-url {
+  margin-top: 2%;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1% 0%;
+}
+
+.newShortUrl-btns {
+  margin: 0% 3%;
+}
+
+.allurl-container {
+  padding: 2rem;
+}
+
+.allurl-title {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.allurl-table {
+  /* border-radius: 10px; */
+  height: 244px;
+  padding: 0 10px 10px 10px;
+  overflow: scroll;
+  max-height: 20px;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+.table-responsive {
+  max-height: 800px;
+}
+
+.table-thead {
+  position: sticky;
+  top: 0px;
+  margin: 0 0 0 0;
+}
